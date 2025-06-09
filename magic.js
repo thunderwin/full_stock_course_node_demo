@@ -139,23 +139,23 @@ function playSystemSounds() {
         
         const speeches = [
             {
-                text: isWindows ? 'Hello! I am your program!' : '你好！我是你创造的程序！',
+                text: isWindows ? '我是你的程序' : '你好！我是你创造的程序！',
                 description: '程序打招呼'
             },
             {
-                text: 'I can work on any computer!',
+                text: '我能在任何地方跑',
                 description: '程序介绍跨平台能力'
             },
             {
-                text: isWindows ? 'I am running on Windows!' : isMac ? 'I am running on macOS!' : 'I am running on Linux!',
+                text: isWindows ? '我跑在 Windows' : isMac ? '我跑在苹果电脑' : '我在运行',
                 description: '程序识别操作系统'
             },
             {
-                text: 'Programming is amazing!',
+                text: '编程很酷，老师很牛',
                 description: '程序赞美编程'
             },
             {
-                text: 'You are now a programmer!',
+                text: '现在请叫我程序员。',
                 description: '程序祝贺用户'
             }
         ];
